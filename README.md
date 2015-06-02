@@ -55,7 +55,7 @@ Creating a brand new instance
 You can get rid of an already existing box and create a brand new environment by doing:
 > vagrant destroy
 
-And then running one of the first time setup steps again. 
+And then running one of the first time setup steps again.
 
 > Note: The process of first time setup can take a really long time (a minimum of 40-60 minutes on a good connection).
 
@@ -68,3 +68,11 @@ Credentials for the virtual machine are:
   Username: vagrant
 
 There is currently no password for this user. You can set the password using the comand `passwd` for user *vagrant*.
+
+
+Go development environment in docker
+====================================
+
+> berks package cookbooks.tar.gz
+
+> docker build .
